@@ -1,0 +1,33 @@
+{
+  "name" : "Date and hour picker",
+  "version" : "1.0",
+  "description" : "This plugin allows user to select date and time in two separate HTML fields. APEX developer retrieves only one field with resulting concatenated values.",
+  "keywords" : ["time", "date", "plugin", "oracle", "item", "datetime"],
+  "homepage" : "https://github.com/josepcoves/apex_datetime",
+  "bugs" : {
+    "url" : "https://github.com/josepcoves/apex_datetime/issues",
+    "email" : "josepcoves@relational.es"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Josep Coves",
+    "email" : "josepcoves@relational.es",
+    "url" : "http://www.relational.es/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/josepcoves/apex_datetime.git"
+  },
+ "oracle" : {                                            
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["4.0.1","5.0.0","5.0.1"],
+      "plugin" : {
+        "internalName" : "ES.RELATIONAL.JOSEPCOVES.DATEHOURPICKER",
+        "type" : "item",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=JOSEPCOVES:3",
+        "previewImage" : "https://raw.githubusercontent.com/josepcoves/apex_datetime/master/source/demo_datetime.png"
+      }
+    }
+  }
+}
